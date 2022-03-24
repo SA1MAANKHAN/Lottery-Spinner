@@ -3,19 +3,62 @@
   outline: 0;
   text-decoration: none;
   word-wrap: break-word;
+  font-family: "Roboto", sans-serif;
 }
-html {
-  font-size: 100%;
-  line-height: 1.5;
-}
-
 body {
-  margin: 0;
-  padding: 0;
+  background-color: rgb(233, 233, 233);
 }
 
+.prizes_container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.prizes {
+  flex: 3;
+
+  display: flex;
+  flex-direction: column;
+
+  justify-content: space-around;
+  align-items: center;
+
+  height: 100vh;
+}
+.prizes__left {
+}
+
+.prizes__right {
+}
+.prize_container {
+  height: 45%;
+  width: 80%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.prize_container img {
+  height: 80%;
+  width: 80%;
+  object-fit: cover;
+}
+
+.prize_container h1 {
+  width: 100%;
+  text-align: center;
+}
 .showcase {
+  flex: 4;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   flex: 0 0 40%;
-  width: 40%;
   padding: 0.75rem;
 }

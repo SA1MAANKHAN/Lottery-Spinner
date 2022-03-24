@@ -2386,10 +2386,10 @@
       buttonFont: "white",
     },
     light: {
-      border: "orange",
-      prize: "lightyellow",
+      border: "#251f9b",
+      prize: "#de0494",
       button: "tomato",
-      line: "orange",
+      line: "#251f9b",
       prizeFont: "orange",
       buttonFont: "white",
     },

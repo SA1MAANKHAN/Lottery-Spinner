@@ -6,7 +6,7 @@
   font-family: "Roboto", sans-serif;
 }
 body {
-  background-color: rgb(233, 233, 233);
+  background-color: rgb(255, 255, 255);
 }
 
 .prizes_container {
@@ -43,9 +43,12 @@ body {
 }
 
 .prize_container img {
-  height: 80%;
-  width: 80%;
-  object-fit: cover;
+  height: 90%;
+  border: 5px solid purple;
+  border-radius: calc(2vh + 2vw);
+  width: 90%;
+  padding: calc(1vh + 1vw);
+  object-fit: contain;
 }
 
 .prize_container h1 {
